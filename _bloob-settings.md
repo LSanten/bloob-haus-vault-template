@@ -59,6 +59,30 @@ favicon: "[[favicon.png]]"
 Edit the properties above in Obsidian to change publishing behavior.
 Don't rename or move this file.
 
+## License: what others may do with your writing
+
+Set it with `license:` at the top of this file. It shows as one quiet line at the foot of every
+page ("Shared under CC BY-NC-SA 4.0"), and as machine-readable tags so search engines and AIs can
+read it. Leave it empty and no license is shown: then the usual copyright applies, which means
+nobody may reuse your writing without asking.
+
+| Write this | Others may | Must credit you | Commercial use | Changes allowed | Must share alike |
+|---|---|---|---|---|---|
+| `CC BY 4.0` | share and adapt | yes | yes | yes | no |
+| `CC BY-SA 4.0` | share and adapt | yes | yes | yes | yes |
+| `CC BY-NC 4.0` | share and adapt | yes | no | yes | no |
+| `CC BY-NC-SA 4.0` | share and adapt | yes | no | yes | yes |
+| `CC BY-ND 4.0` | share as is | yes | yes | no | n/a |
+| `CC BY-NC-ND 4.0` | share as is | yes | no | no | n/a |
+| `CC0` | anything, no credit needed (public domain) | no | yes | yes | no |
+
+- **To change it:** edit the `license:` line above; it applies on the next build.
+- **One note differs:** put `license: CC BY 4.0` (or any of the above) in that note's frontmatter.
+  `license: none` shows no license on that note (useful for notes quoting other people).
+- Written any usual way works (`CC BY-NC-SA 4.0`, `CC-BY-NC-SA-4.0`, `cc by-nc-sa`). Without a
+  version it means 4.0. Anything else is shown as you wrote it ("License: …"), with no link.
+- Plain-language guide to choosing: https://creativecommons.org/choose/
+
 ## Snippets & embeds
 
 Paste raw HTML/JS snippets into the fenced blocks below. Each block is injected on
